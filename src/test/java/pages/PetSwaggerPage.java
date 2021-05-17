@@ -19,7 +19,14 @@ public class PetSwaggerPage {
     @FindBy (xpath = "//*[@class='operation-tag-content']/child::span/child::div")
     private List<WebElement> methodList;
 
+    @FindBy (xpath = " //*[@class='operation-tag-content']/child::span/child::div/child::div")
+    private List<WebElement> expandedMethodList;
+
     public List<WebElement> getMethodList() {
         return methodList;
+    }
+
+    public List<WebElement> getExpandedMethodList() {
+        return expandedMethodList;
     }
 }
