@@ -37,7 +37,9 @@ public class petUIValidation {
         driver.get("https://petstore.swagger.io/#/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        //deneme12345
+        //deneme12345lkdzkvz
+        //fjasf
+        //aoskfaskfoasas
     }
 
     @Test
