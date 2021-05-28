@@ -74,7 +74,7 @@ public class petUIValidation {
         }
 
         for (WebElement w: methods) {
-            //Assert False that every class name has doesn't contains open except the one has been deprecated.
+            //Assert False that class name has doesn't contains open except the one has been deprecated.
             if(!w.getAttribute("class").contains("deprecated"))
                 Assert.assertFalse(w.getAttribute("class").contains("open"),
                         "The element "+ w.getAttribute("class") +" is unable to collapsed");
